@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grass Masters Turf LLC | Premium Synthetic Grass</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,18 +14,51 @@
             <div class="logo">Grass Masters<span> Turf LLC</span></div>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
-                <li><a href="tel:8434216275" style="color: var(--logo-green); font-weight: bold;">Anthony: 843-421-6275</a></li>
-                <li><a href="#contact" class="btn-small">Get Quote</a></li>
+                <li><a href="tel:8434216275" class="nav-phone">Anthony: 843-421-6275</a></li>
+                <li><a href="#quote-section" class="btn-small">Get Quote</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Always Green. Always Perfect.</h1>
-            <p>Premium synthetic turf solutions for residential and commercial spaces.</p>
-            <div style="margin-bottom: 20px; font-size: 1.2rem; font-weight: bold;">
-                Roger: 843-557-2590
+    <section class="hero-slider">
+        <div class="slideshow">
+            <div class="slide pop-in">
+                <img src="8511.jpg" alt="Putting Green">
+                <div class="hero-text">
+                    <h1>Always Green. Always Perfect.</h1>
+                    <p>Premium Putting Greens & Lawns</p>
+                </div>
+            </div>
+            <div class="slide pop-in">
+                <img src="8513.jpg" alt="Commercial Turf">
+                <div class="hero-text">
+                    <h1>Professional Commercial Turf</h1>
+                    <p>Custom Patterns & High Traffic Solutions</p>
+                </div>
+            </div>
+            <div class="slide pop-in">
+                <img src="8512.jpg" alt="Residential Turf">
+                <div class="hero-text">
+                    <h1>Transform Your Backyard</h1>
+                    <p>Beautiful, Low-Maintenance Living</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote-section" class="quote-info">
+        <div class="quote-card">
+            <h2>Ready for a Transformation?</h2>
+            <p>Get a free, no-obligation estimate for your project.</p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="name">Anthony</span>
+                    <a href="tel:8434216275" class="phone-link">843-421-6275</a>
+                </div>
+                <div class="contact-item">
+                    <span class="name">Roger</span>
+                    <a href="tel:8435572590" class="phone-link">843-557-2590</a>
+                </div>
             </div>
             <button id="quoteBtn" class="cta-button">Request Free Estimate</button>
         </div>
@@ -32,71 +66,42 @@
 
     <section id="services" class="services">
         <div class="service-card">
-            <div class="icon">⛳</div>
+            <span class="icon">⛳</span>
             <h3>Putting Greens</h3>
             <p>Professional-grade custom greens for the ultimate backyard practice.</p>
         </div>
         <div class="service-card">
-            <div class="icon">🐕</div>
+            <span class="icon">🐕</span>
             <h3>Dog Parks</h3>
-            <p>Durable, antimicrobial turf designed specifically for pets and high traffic.</p>
+            <p>Durable, antimicrobial turf designed specifically for pets.</p>
         </div>
         <div class="service-card">
-            <div class="icon">🛝</div>
+            <span class="icon">🛝</span>
             <h3>Playgrounds</h3>
             <p>Safe, soft-fall certified turf solutions for kids' play areas.</p>
         </div>
         <div class="service-card">
-            <div class="icon">🏢</div>
+            <span class="icon">🏢</span>
             <h3>Common Areas</h3>
             <p>Patterned turf and low-maintenance greenery for commercial spaces.</p>
         </div>
-        
         <div class="service-card">
-            <div class="icon">🧱</div>
+            <span class="icon">🧱</span>
             <h3>Hardscape</h3>
-            <p>Expert pavers, retaining walls, and stone features to enhance your lawn.</p>
+            <p>Expert pavers, stone features, and retaining walls.</p>
         </div>
         <div class="service-card">
-            <div class="icon">🌿</div>
+            <span class="icon">🌿</span>
             <h3>Landscape</h3>
-            <p>Complete outdoor design including planting, borders, and maintenance.</p>
-        </div>
-    </section>
-    </section>
-    <section id="gallery" class="gallery-container">
-        <h2>Our Recent Work</h2>
-        <div class="slideshow">
-            <div class="slide fade">
-                <img src="8511.jpg" alt="Backyard Putting Green">
-                <div class="caption">Custom Putting Greens</div>
-            </div>
-
-            <div class="slide fade">
-                <img src="8513.jpg" alt="Commercial Turf Pattern">
-                <div class="caption">Commercial Patterns & Common Areas</div>
-            </div>
-
-            <div class="slide fade">
-                <img src="8512.jpg" alt="Residential Turf Installation">
-                <div class="caption">Residential Lawn Transformation</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <p>Complete outdoor design and border installation.</p>
         </div>
     </section>
 
-    <footer id="contact" style="background: #2d5a27; color: white; padding: 40px 20px;">
-        <h3>Contact the Masters</h3>
-        <p><strong>Anthony:</strong> <a href="tel:8434216275" style="color: #76b82a;">843-421-6275</a></p>
-        <p><strong>Roger:</strong> <a href="tel:8435572590" style="color: #76b82a;">843-557-2590</a></p>
-        <hr style="border: 0; border-top: 1px solid #444; margin: 20px 0;">
+    <footer>
         <p>&copy; 2026 Grass Masters Turf LLC. All Rights Reserved.</p>
+        <p>Anthony: 843-421-6275 | Roger: 843-557-2590</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
