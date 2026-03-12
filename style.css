@@ -70,3 +70,26 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
     .quote-card { padding: 50px; }
     .nav-links a { font-size: 1rem; }
 }
+/* Navigation Link Hover Effect */
+.nav-links li a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* The Green Fill on Hover */
+.nav-links li a:hover {
+    background: var(--primary-gradient);
+    color: white !important; /* Forces text to stay white over green */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(118, 184, 42, 0.3);
+}
+
+/* Ensure the "Get Quote" button stays distinct */
+.nav-links .btn-small {
+    background: var(--primary-gradient);
+    color: white !important;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
